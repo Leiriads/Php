@@ -1,0 +1,52 @@
+* {
+   
+    font-family: Cambria, serif;
+    font-size: 2px;
+
+}
+header{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgb(166, 244, 255);
+  
+
+}
+body{
+  
+    background:rgb(166, 186, 221);
+}
+
+.container_menu { 
+    text-align: center; 
+    
+}
+
+
+
+a#voltar{
+    border: 1px solid;
+    display: center;
+    background-color: rgb(225, 193, 253);
+    color: rgb(27, 0, 182);
+    border-radius: 20px;
+    padding: 6px;
+    text-decoration: none;
+}
+a#voltar:hover{
+    background-color: rgb(166, 186, 221);
+}
+
+ /* link que foi visitado 
+ a:visited {
+    color: currentColor;
+ }
+
+ 
+ /* link selecionado 
+ a:active {
+     color: currentColor;
+ }
+ */

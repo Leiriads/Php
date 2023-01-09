@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, serif;
+    font-size: 24px;
+
+}
+
+header{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgb(166, 244, 255);
+  
+
+}
+
+a#voltar{
+    border: 1px solid;
+    display: center;
+    background-color: rgb(225, 193, 253);
+    color: rgb(27, 0, 182);
+    border-radius: 20px;
+    padding: 6px;
+    text-decoration: none;
+}
+a#voltar:hover{
+    background-color: rgb(166, 186, 221);
+}
+
+a#editar{
+    border: 1px solid;
+    display: center;
+    background-color: rgb(0, 255, 13);
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 1px;
+    text-decoration: none;
+}
+
+a#editar:hover{
+    background-color: rgb(44, 170, 50);
+}
+
+a#excluir{
+    border: 1px solid;
+    display: center;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 1px;
+    text-decoration: none;
+}
+
+a#excluir:hover{
+    background-color: rgb(175, 35, 35);
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+
+
+body{
+  
+    background:rgb(166, 186, 221);
+}
+
+.container { 
+    text-align: center; 
+    
+}
+
+input{
+    color: black;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+form input, form text{
+    outline: unset;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid cornflowerblue;
+    border-radius: 20px;
+    
+}
+
+button{
+    border-radius: 10px;
+    border: 1px solid cornflowerblue;
+    padding: 5px;
+}
+button:hover{
+    background-color: rgb(166, 244, 255);
+    
+}
+
+#tabelinha{
+    
+    background-color: rgb(166, 244, 255);
+    color: rgb(27, 0, 182);
+    padding:10px 0;
+    margin: 10px 0;
+
+}
+
+table{
+    border-collapse: collapse; 
+    border: 10px solid cornflowerblue;
+
+}
+td{
+    padding: 5px;
+
+}
+
+
+

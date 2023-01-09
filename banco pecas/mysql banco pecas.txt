@@ -1,0 +1,9 @@
+use banco_pecas;
+CREATE TABLE `banco_pecas`.`pecas` (
+  `id_codigo` INT NOT NULL,
+  `nome_peca` VARCHAR(45) NOT NULL,
+  `preco` DOUBLE NOT NULL,
+  `quantidade` INT NOT NULL,
+  PRIMARY KEY (`id_codigo`));
+  
+  select * from pecas;
