@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+            <img src="fatecsenai.png" alt="" style="width: auto;height: 100px;" class="logo">    
+
+            <input type="text" name="login" id="login" placeholder="Começe digitando o usuario..."><br>
+          
+            <input type="password" name="senha" class="btn-pos" id="senha" placeholder="Digite a senha"><br>
+
+            <div class="buttons">
+               <button type="submit" onclick="realizarlogin()" class="button"> Enviar dados </button>
+                <button type="reset" onclick="limpar()" class="button"> Limpar Formulário</button> 
+            </div>
+            
+
+    </div>
+
+    <script>
+        function limpar(){
+            var user = document.getElementById("login").value = "";
+            var pass = document.getElementById("senha").value = "";
+        }
+
+        function realizarlogin(){
+            var user = document.getElementById("login").value;
+            var pass = document.getElementById("senha").value;
+
+            if(user == "adm@fatec.com.br" && pass == "Fatec@2022"){
+                Swal.fire(
+                'Tudo certo!',
+                'Voce sera redirecionado em 3 segundos!',
+                'success'
+                )
+
+                setTimeout(()=>{
+                    window.location.href = "./cadastro.php"
+                },3000)
+            } else {
+                Swal.fire(
+                'Ops....!',
+                'Usuario ou Senha incorreta, tente novamente!',
+                'error'
+                )
+
+                var user = document.getElementById("login").value = "";
+                var pass = document.getElementById("senha").value = "";
+            }
+        }
+        
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

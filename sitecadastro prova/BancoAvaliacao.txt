@@ -1,0 +1,18 @@
+create table teste;
+use teste;
+
+CREATE TABLE `teste`.`cadastro` (
+  `idCadastro` int AUTO_INCREMENT NOT NULL,
+  `Nome` varchar(100) NOT NULL,
+  `CPF` varchar(11) NOT NULL,
+  `RG_Insc_estado` varchar(8) NOT NULL,
+  `Site_URL` varchar(100),
+  `Telefone_Principal` varchar(20) NOT NULL,
+  `Telefone_Dois` varchar(20) NOT NULL,
+  `Email_Principal` varchar(100) NOT NULL,
+  `Profissao` varchar(100) NOT NULL,
+  `Estado_civil` varchar(40) NOT NULL,
+  `Nascimento` date NOT NULL,
+  PRIMARY KEY (`idCadastro`));
+  
+  select * from cadastro;
