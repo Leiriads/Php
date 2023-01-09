@@ -1,0 +1,1 @@
+Esse projeto é uma tentativa de criar uma api do 0 utilizando Php.

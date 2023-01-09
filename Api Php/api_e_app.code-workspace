@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "api"
+		},
+		{
+			"path": "app"
+		},
+		{
+			"path": "../senha"
+		},
+		{
+			"path": "../site"
+		},
+		{
+			"path": "../sitecadastro"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "senha"
+	}
+}
